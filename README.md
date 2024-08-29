@@ -57,3 +57,17 @@ If you are working with a different project, the rule of thumb for clearing fold
 1. Before the processing, clear all folders ___except___ the upload/input folder. 
 2. After the processing clear the upload/input folder.
 
+Running the containers
+---
+It is important to run the containers in the "detached" mode (`-d` flag) and bind the ports properly.
+```python
+# starter.py
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port={your_port}) # Port here
+```
+```bash
+docker build -t {name} . --network=host
+docker run -d -p {your_port}:{your_port} {name}:latest 
+                # Should be the same here
+```
+You can of course run the containers from the CLI every time. However, using the Docker Desktop dashboard will make the management of multiple containers easier.
