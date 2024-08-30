@@ -1,5 +1,5 @@
 # ba_supplementary
-Here supplementary files (like starter files for the AI-modules) for my bachelor thesis can be found. Although the setup of `starter.py` and other files is originally intended for the AI-tools from the `bimkit-demo-text` project by Philipp Schönfelder, with minor alterations it can be suited to work with other projects as well.
+Here supplementary files (like starter files for the AI-modules) for my bachelor thesis can be found. Although the setup of `starter.py` and other files is originally intended for the AI-tools from the `bimkit-demo-text` project by Phillip Schönfelder, with minor alterations it can be suited to work with other projects as well.
 
 **Backend:** https://github.com/ghjez/ba_backend  
 **Frontend:** https://github.com/ghjez/ba_frontend  
